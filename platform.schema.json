@@ -1,0 +1,30 @@
+{
+    "plugin_alias": "SamsungTVControl",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "title": "Platform",
+                "type": "string",
+                "const": "SamsungTVControl",
+                "readOnly": true
+            },
+            "name":{
+                "title":"name",
+                "type":"string"
+            },
+            "usn":{
+                "title":"usn",
+                "type":"string"
+            },
+            "token":{
+                "title":"token",
+                "type":"string"
+            },
+            "inputs": {
+                "title": "Input",
+                "type": "array"
+            }
+        }
+    }
+}
